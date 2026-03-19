@@ -1,0 +1,7 @@
+data/graph_images/
+data/uploads/
+data/redis/
+data/vector_store/
+logs/
+__pycache__/
+*.pyc
