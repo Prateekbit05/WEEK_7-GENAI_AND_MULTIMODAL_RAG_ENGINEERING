@@ -1,0 +1,1444 @@
+{
+  "interactions": [
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_152113",
+      "timestamp": "2026-02-25T15:21:18.949154",
+      "question": "How many artists are in the database?",
+      "sql": null,
+      "answer": "This is a text query response for: 'How many artists are in the database?'",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_152113",
+      "timestamp": "2026-02-25T15:21:37.316905",
+      "question": "Show sales by country",
+      "sql": null,
+      "answer": "This is a text query response for: 'Show sales by country'\n\nBased on previous conversation.",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_152113",
+      "timestamp": "2026-02-25T15:22:09.151435",
+      "question": "what does this graph show?",
+      "answer": "Image: 20260225_152205_bar_chart_1.png.jpg\nCaption: a bar chart showing the percentage of the number of employees in each of the company\nAnswer: what does this graph show?",
+      "image": "bar_chart_1.png.jpg"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_152113",
+      "timestamp": "2026-02-25T15:22:38.878232",
+      "question": "division of graph?",
+      "answer": "Image: 20260225_152236_bar_chart_1e09d5e1c1a9b8092464e71983cd63fc.png.jpg\nCaption: a diagram showing the height of a building\nAnswer: division of graph? histogram terminology",
+      "image": "bar_chart_1e09d5e1c1a9b8092464e71983cd63fc.png.jpg"
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_152113",
+      "timestamp": "2026-02-25T15:23:12.201739",
+      "question": "How many artists are in the database?",
+      "sql": null,
+      "answer": "This is a text query response for: 'How many artists are in the database?'\n\nBased on previous conversation.",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_152759",
+      "timestamp": "2026-02-25T15:28:18.292042",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT 'No database available';",
+      "answer": "Query failed: Database not found",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_153153",
+      "timestamp": "2026-02-25T15:32:39.727198",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_153153",
+      "timestamp": "2026-02-25T15:34:06.448548",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_153153",
+      "timestamp": "2026-02-25T15:34:13.218841",
+      "question": "Show sales by country",
+      "sql": "SELECT COUNT(*) as count FROM sales;",
+      "answer": "There are **200** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_153153",
+      "timestamp": "2026-02-25T15:34:18.275499",
+      "question": "What is the total sales amount?",
+      "sql": "SELECT SUM(total_amount) as total_sales FROM sales;",
+      "answer": "The total is **15,227.87**",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_153153",
+      "timestamp": "2026-02-25T15:34:34.598869",
+      "question": "What does the graph show?",
+      "answer": "**Image:** 20260225_153431_bar_chart_1hjAHDPgp6oB0vXp-Y4fiBw.png.jpg\n\n**Caption:** a bar chart with the number of people who have been in the past\n\n**Answer:** what does the graph show?",
+      "image": "bar_chart_1hjAHDPgp6oB0vXp-Y4fiBw.png.jpg"
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_153153",
+      "timestamp": "2026-02-25T15:35:24.303354",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260225_153845",
+      "timestamp": "2026-02-25T15:38:48.418614",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_153845",
+      "timestamp": "2026-02-25T15:39:18.682029",
+      "question": "what are the given shapes?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260225_153914_bar_chart_1Kz0CQHayNH8kKQxIu3J9BA.png.jpg\n\n**Description:** the logo for the new website\n\n**Answer to your question:**\nsquares",
+      "image": "bar_chart_1Kz0CQHayNH8kKQxIu3J9BA.png.jpg"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_153845",
+      "timestamp": "2026-02-25T16:08:27.358255",
+      "question": "what is the name of the graph?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260225_160824_bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg\n\n**Description:** a graph with a bar graph on it\n\n**Answer to your question:**\ngraph",
+      "image": "bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_153845",
+      "timestamp": "2026-02-25T16:08:41.267642",
+      "question": "what is the name of the graph?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260225_160838_bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg\n\n**Description:** a graph with a bar graph on it\n\n**Answer to your question:**\ngraph",
+      "image": "bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_153845",
+      "timestamp": "2026-02-25T16:08:50.867984",
+      "question": "what is the name of the graph?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260225_160848_bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg\n\n**Description:** a graph with a bar graph on it\n\n**Answer to your question:**\ngraph",
+      "image": "bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_153845",
+      "timestamp": "2026-02-25T16:08:53.354682",
+      "question": "what is the name of the graph?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260225_160850_bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg\n\n**Description:** a graph with a bar graph on it\n\n**Answer to your question:**\ngraph",
+      "image": "bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg"
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "user_001",
+      "timestamp": "2026-02-25T16:14:50.131935",
+      "question": "What is the total sales amount?",
+      "answer": "The total is **$15,227.87**",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "user_001",
+      "timestamp": "2026-02-25T16:18:48.197567",
+      "question": "How many artists are there?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "user_001",
+      "timestamp": "2026-02-25T16:18:59.160101",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "user_001",
+      "timestamp": "2026-02-25T16:19:06.153285",
+      "question": "Show all artists",
+      "sql": "SELECT * FROM artists LIMIT 20;",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "row_count": 8
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "user_001",
+      "timestamp": "2026-02-25T16:19:14.116649",
+      "question": "What is the total sales amount?",
+      "sql": "SELECT SUM(total_amount) as total_sales FROM sales;",
+      "answer": "The total is **$15,227.87**",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "user_001",
+      "timestamp": "2026-02-25T16:19:20.535095",
+      "question": "Show top 5 albums by price",
+      "sql": null,
+      "answer": "SQL error: Unknown format code 'f' for object of type 'str'",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260225_153845",
+      "timestamp": "2026-02-25T16:21:24.441122",
+      "question": "what is the name of the graph?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260225_162121_bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg\n\n**Description:** a graph with a bar graph on it\n\n**Answer to your question:**\ngraph",
+      "image": "bar_chart_2cc622e5-61d3-41f3-9856-cc50c10f9ac0.jpg"
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.494031",
+      "question": "How many artists are there?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.522682",
+      "question": "Show all artists",
+      "sql": "SELECT * FROM artists LIMIT 20;",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "row_count": 8
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.545911",
+      "question": "What is the total sales amount?",
+      "sql": "SELECT SUM(total_amount) as total_sales FROM sales;",
+      "answer": "The total is **$15,227.87**",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.568607",
+      "question": "Show top 5 albums by price",
+      "sql": null,
+      "answer": "SQL error: Unknown format code 'f' for object of type 'str'",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.598412",
+      "question": "Show sales by country",
+      "sql": "SELECT COUNT(*) as count FROM sales;",
+      "answer": "There are **200** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.622318",
+      "question": "How many artists are in the database?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "good",
+        "hallucination_detected": false,
+        "flags": [
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.647628",
+      "question": "Show me their names",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "fair",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.657318",
+      "question": "What genres do they play?",
+      "answer": "This is a text query response for: 'What genres do they play?'\n\nBased on our previous conversation.",
+      "evaluation": {
+        "confidence": 0.5,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance",
+          "low_confidence"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-02-25T16:39:08.672682",
+      "question": "How many albums do they have?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "good",
+        "hallucination_detected": false,
+        "flags": [
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "bash_test_001",
+      "timestamp": "2026-02-25T16:39:21.735118",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "bash_test_001",
+      "timestamp": "2026-02-25T16:39:21.753691",
+      "question": "Total sales amount",
+      "sql": "SELECT SUM(total_amount) as total_sales FROM sales;",
+      "answer": "The total is **$15,227.87**",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "bash_test_001",
+      "timestamp": "2026-02-25T16:39:21.766552",
+      "question": "Top 5 albums by price",
+      "sql": null,
+      "answer": "SQL error: Unknown format code 'f' for object of type 'str'",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.579728",
+      "question": "How many artists are there?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.599583",
+      "question": "What is the total sales?",
+      "answer": "The total is **$15,227.87**",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.628611",
+      "question": "Show me all artists",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.638969",
+      "question": "",
+      "answer": "This is a text query response for: ''\n\nBased on our previous conversation.",
+      "evaluation": {
+        "confidence": 0.5,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance",
+          "low_confidence"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.653719",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.669446",
+      "question": "What is the total sales amount?",
+      "sql": "SELECT SUM(total_amount) as total_sales FROM sales;",
+      "answer": "The total is **$15,227.87**",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.682022",
+      "question": "Show all artists",
+      "sql": "SELECT * FROM artists LIMIT 20;",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "row_count": 8
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.689368",
+      "question": "Show top 5 albums by price",
+      "sql": null,
+      "answer": "SQL error: Unknown format code 'f' for object of type 'str'",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.700266",
+      "question": "Show sales by country",
+      "sql": "SELECT COUNT(*) as count FROM sales;",
+      "answer": "There are **200** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "test_comprehensive_001_conv",
+      "timestamp": "2026-02-25T16:39:55.712639",
+      "question": "How many artists?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "test_comprehensive_001_conv",
+      "timestamp": "2026-02-25T16:39:55.730555",
+      "question": "Show their names",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.754209",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.772646",
+      "question": "Show all artists",
+      "sql": "SELECT * FROM artists LIMIT 20;",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "row_count": 8
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.790305",
+      "question": "Tell me about the artists",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "good",
+        "hallucination_detected": false,
+        "flags": [
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001",
+      "timestamp": "2026-02-25T16:39:55.799557",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001_concurrent_0",
+      "timestamp": "2026-02-25T16:39:55.819398",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001_concurrent_1",
+      "timestamp": "2026-02-25T16:39:55.829551",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "test_comprehensive_001_concurrent_2",
+      "timestamp": "2026-02-25T16:39:55.839294",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "",
+      "timestamp": "2026-02-25T16:39:55.857878",
+      "question": "Test",
+      "answer": "This is a text query response for: 'Test'",
+      "evaluation": {
+        "confidence": 0.3,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_confidence"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_0",
+      "timestamp": "2026-02-25T16:40:14.555981",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_1",
+      "timestamp": "2026-02-25T16:40:14.571388",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_2",
+      "timestamp": "2026-02-25T16:40:14.579932",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_3",
+      "timestamp": "2026-02-25T16:40:14.587165",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_4",
+      "timestamp": "2026-02-25T16:40:14.605424",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_5",
+      "timestamp": "2026-02-25T16:40:14.620882",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_6",
+      "timestamp": "2026-02-25T16:40:14.629603",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_7",
+      "timestamp": "2026-02-25T16:40:14.637641",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_8",
+      "timestamp": "2026-02-25T16:40:14.646365",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_9",
+      "timestamp": "2026-02-25T16:40:14.654433",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_10",
+      "timestamp": "2026-02-25T16:40:14.662133",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_11",
+      "timestamp": "2026-02-25T16:40:14.670290",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_12",
+      "timestamp": "2026-02-25T16:40:14.679324",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_13",
+      "timestamp": "2026-02-25T16:40:14.687752",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_14",
+      "timestamp": "2026-02-25T16:40:14.696026",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_15",
+      "timestamp": "2026-02-25T16:40:14.704240",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_16",
+      "timestamp": "2026-02-25T16:40:14.713466",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_17",
+      "timestamp": "2026-02-25T16:40:14.722360",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_18",
+      "timestamp": "2026-02-25T16:40:14.730586",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_19",
+      "timestamp": "2026-02-25T16:40:14.738423",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "session_20260318_135236",
+      "timestamp": "2026-03-18T13:52:52.703414",
+      "question": "Give me the sales details",
+      "answer": "Query returned **10** row(s).\n\nColumns: sale_id, album_id, quantity, total_amount, sale_date, customer_country",
+      "evaluation": {
+        "confidence": 1.0,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.360113",
+      "question": "How many artists are there?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.370956",
+      "question": "Show all artists",
+      "sql": "SELECT * FROM artists LIMIT 20;",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "row_count": 8
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.379603",
+      "question": "What is the total sales amount?",
+      "sql": "SELECT SUM(total_amount) as total_sales FROM sales;",
+      "answer": "The total is **$15,227.87**",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.386713",
+      "question": "Show top 5 albums by price",
+      "sql": null,
+      "answer": "SQL error: Unknown format code 'f' for object of type 'str'",
+      "row_count": 0
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.394106",
+      "question": "Show sales by country",
+      "sql": "SELECT COUNT(*) as count FROM sales;",
+      "answer": "There are **200** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.401130",
+      "question": "How many artists are in the database?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "good",
+        "hallucination_detected": false,
+        "flags": [
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.410256",
+      "question": "Show me their names",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "fair",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.414975",
+      "question": "What genres do they play?",
+      "answer": "This is a text query response for: 'What genres do they play?'\n\nBased on our previous conversation.",
+      "evaluation": {
+        "confidence": 0.5,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance",
+          "low_confidence"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "python_test_001",
+      "timestamp": "2026-03-18T14:32:36.421336",
+      "question": "How many albums do they have?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8,
+        "quality": "good",
+        "hallucination_detected": false,
+        "flags": [
+          "low_context_relevance"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_1",
+      "timestamp": "2026-03-18T14:57:43.744782",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_0",
+      "timestamp": "2026-03-18T14:57:43.751358",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_2",
+      "timestamp": "2026-03-18T14:57:43.757731",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_3",
+      "timestamp": "2026-03-18T14:57:43.764678",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_4",
+      "timestamp": "2026-03-18T14:57:43.771222",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_5",
+      "timestamp": "2026-03-18T14:57:43.780620",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_6",
+      "timestamp": "2026-03-18T14:57:43.789283",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_7",
+      "timestamp": "2026-03-18T14:57:43.797461",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_8",
+      "timestamp": "2026-03-18T14:57:43.807852",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_9",
+      "timestamp": "2026-03-18T14:57:43.816482",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_10",
+      "timestamp": "2026-03-18T14:57:43.823303",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_11",
+      "timestamp": "2026-03-18T14:57:43.830624",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_12",
+      "timestamp": "2026-03-18T14:57:43.840689",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_13",
+      "timestamp": "2026-03-18T14:57:43.849257",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_14",
+      "timestamp": "2026-03-18T14:57:43.855856",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_15",
+      "timestamp": "2026-03-18T14:57:43.862658",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_16",
+      "timestamp": "2026-03-18T14:57:43.868605",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_17",
+      "timestamp": "2026-03-18T14:57:43.876368",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_18",
+      "timestamp": "2026-03-18T14:57:43.882611",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_19",
+      "timestamp": "2026-03-18T14:57:43.889159",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_0",
+      "timestamp": "2026-03-18T14:58:19.216055",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_2",
+      "timestamp": "2026-03-18T14:58:19.223793",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_3",
+      "timestamp": "2026-03-18T14:58:19.231177",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_1",
+      "timestamp": "2026-03-18T14:58:19.237485",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_4",
+      "timestamp": "2026-03-18T14:58:19.244018",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_5",
+      "timestamp": "2026-03-18T14:58:19.250321",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_6",
+      "timestamp": "2026-03-18T14:58:19.257224",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_7",
+      "timestamp": "2026-03-18T14:58:19.263215",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_8",
+      "timestamp": "2026-03-18T14:58:19.269093",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_9",
+      "timestamp": "2026-03-18T14:58:19.278135",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_10",
+      "timestamp": "2026-03-18T14:58:19.285441",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_11",
+      "timestamp": "2026-03-18T14:58:19.291810",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_12",
+      "timestamp": "2026-03-18T14:58:19.297879",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_13",
+      "timestamp": "2026-03-18T14:58:19.304687",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_14",
+      "timestamp": "2026-03-18T14:58:19.312339",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_15",
+      "timestamp": "2026-03-18T14:58:19.319252",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_16",
+      "timestamp": "2026-03-18T14:58:19.326465",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_17",
+      "timestamp": "2026-03-18T14:58:19.333340",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_18",
+      "timestamp": "2026-03-18T14:58:19.340540",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "load_test_19",
+      "timestamp": "2026-03-18T14:58:19.347251",
+      "question": "How many artists?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "session_20260318_151103",
+      "timestamp": "2026-03-18T15:13:55.731962",
+      "question": "Tell me about the sales database\n",
+      "answer": "Query returned **10** row(s).\n\nColumns: sale_id, album_id, quantity, total_amount, sale_date, customer_country",
+      "evaluation": {
+        "confidence": 1.0,
+        "quality": "poor",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260318_151103",
+      "timestamp": "2026-03-18T15:18:50.503419",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260318_151103",
+      "timestamp": "2026-03-18T15:19:33.382353",
+      "question": "WHat does the trend in the graph show?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260318_151929_bar_chart_0BDD0B0D187D0B5D0BDD0B8D18FD0BCD0B8-D0B3D0BED0B4D0BED0B2-D0BFD180D0BED0B2D0B5D0B4D0B5D0BDD0B8D18F-D181D0BED180D0B5D0B2D0BDD0BED0B2D0B0D0BDD0B8D0B9.jpg.jpg\n\n**Description:** a graph with a bar chart and a bar chart\n\n**Answer to your question:**\nlong",
+      "image": "bar_chart_0BDD0B0D187D0B5D0BDD0B8D18FD0BCD0B8-D0B3D0BED0B4D0BED0B2-D0BFD180D0BED0B2D0B5D0B4D0B5D0BDD0B8D18F-D181D0BED180D0B5D0B2D0BDD0BED0B2D0B0D0BDD0B8D0B9.jpg.jpg"
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "session_20260318_152106",
+      "timestamp": "2026-03-18T15:21:23.933913",
+      "question": "How does the refinement loop work?\n",
+      "answer": "The **Refinement Loop** re-runs poor or fair answers through an improvement pass.\n\n- Enabled via the *Refinement Loop* checkbox in the sidebar\n- Only applies to **text** answers (SQL results are not refined)\n- Max 2 iterations with a minimum improvement threshold of 0.1\n- When active, a \ud83d\udd04 badge appears below the answer",
+      "evaluation": {
+        "confidence": 0.5,
+        "quality": "fair",
+        "hallucination_detected": false,
+        "flags": [
+          "low_confidence"
+        ]
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260318_152106",
+      "timestamp": "2026-03-18T15:21:32.430733",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260318_152106",
+      "timestamp": "2026-03-18T15:24:31.142069",
+      "question": "Show all artists",
+      "sql": "SELECT * FROM artists LIMIT 20;",
+      "answer": "Query returned **8** row(s).\n\nColumns: artist_id, name, genre, country",
+      "row_count": 8
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260318_152800",
+      "timestamp": "2026-03-18T15:28:20.223662",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260318_152800",
+      "timestamp": "2026-03-18T15:28:23.555230",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260318_152800",
+      "timestamp": "2026-03-18T15:29:24.620538",
+      "question": "WHAT TREND DOES THIS BAR CHAT SHOWS?",
+      "answer": "### \ud83d\udcf8 Image Analysis\n\n**File:** 20260318_152922_bar_chart_15c9e1f5ab907e.png.jpg\n\n**Description:** a bar chart showing the number of people who have been in the hospital\n\n**Answer:** 5",
+      "image": "bar_chart_15c9e1f5ab907e.png.jpg"
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "session_20260318_153930",
+      "timestamp": "2026-03-18T15:40:05.339629",
+      "question": "Describe the system architecture",
+      "answer": "Regarding your question: *\"Describe the system architecture\"*\n\nThe database I have access to contains:\nThe sales analytics database contains the following tables:\n  \u2022 artists (8 rows) \u2014 columns: \u2014\n  \u2022 albums (8 rows) \u2014 columns: \u2014\n  \u2022 sales (200 rows) \u2014 columns: \u2014\n\nFor specific data, switch to the **SQL Query** tab or ask me something like *'How many artists are there?'*",
+      "evaluation": {
+        "confidence": 0.75,
+        "quality": "excellent",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260318_153930",
+      "timestamp": "2026-03-18T15:40:19.125340",
+      "question": "How many albums are there?",
+      "sql": "SELECT COUNT(*) as count FROM albums;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260318_153930",
+      "timestamp": "2026-03-18T15:40:52.312441",
+      "question": "What is the bar graph showing?",
+      "answer": "### \ud83d\udcf8 Image Analysis  *(via ocr)*\n\n**File:** 20260318_154052_bar_chart_3d357ffe-dbb1-4a98-9265-55df995e8298.jpg\n\n**Description:** Chart/image containing: 35 non | #3 B: re] 15: ) = es na Pa ' Ss 0  2 3  NpwyactHocTe\n\n**Answer:**\n\n**Based on the text extracted from the image:**\n\n\n**Chart title / labels found:**\n35 non\n| #3\nB:\nre] 15:\n)\n=\n",
+      "image": "bar_chart_3d357ffe-dbb1-4a98-9265-55df995e8298.jpg"
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "session_20260318_154530",
+      "timestamp": "2026-03-18T15:45:47.389369",
+      "question": "Explain the refinement loop\n",
+      "answer": "The **Refinement Loop** re-runs poor or fair answers through an improvement pass.\n\n- Enabled via the *Refinement Loop* checkbox in the sidebar\n- Only applies to **text** answers (SQL results are not refined)\n- Max 2 iterations with a minimum improvement threshold of 0.1\n- When active, a \ud83d\udd04 badge appears below the answer",
+      "evaluation": {
+        "confidence": 0.75,
+        "quality": "excellent",
+        "hallucination_detected": false,
+        "flags": []
+      }
+    },
+    {
+      "endpoint": "/ask-sql",
+      "session_id": "session_20260318_154530",
+      "timestamp": "2026-03-18T15:45:54.676959",
+      "question": "How many artists are in the database?",
+      "sql": "SELECT COUNT(*) as count FROM artists;",
+      "answer": "There are **8** records.",
+      "row_count": 1
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260318_154530",
+      "timestamp": "2026-03-18T15:46:18.506370",
+      "question": "What does the pdf gives u the info?",
+      "answer": "### \ud83d\udcf8 Image Analysis  *(via ocr)*\n\n**File:** 20260318_154616_Week-7-1766484412108.pdf\n\n**Description:** Chart/image containing: WEEK 7  GENAI & MULTIMODAL RAG ENGINEERING (Text RAG + Image RAG + SQL Question Answering + Hybrid Retrieval + Local LLMs) USE CASE: Enterprise Knowledge Intelligence System (Text + Images + SQL RAG) \n\n**Answer:**\n\n**Based on the text extracted from the image:**\n\n\n**Chart title / labels found:**\nWEEK 7  GENAI & MULTIMODAL RAG\nENGINEERING\n(Text RAG + Image RAG + SQL Question Answering + Hybrid Retrieval + Local LLMs)\nUSE CASE: Enterprise Knowledge Intelligence System (Text + Images +\nSQL RAG)\nInterns will build an enterprise-grade GenAl system that can:\n",
+      "image": "Week-7-1766484412108.pdf"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260318_154736",
+      "timestamp": "2026-03-18T15:48:08.447420",
+      "question": "What does the pdf gives u the information?",
+      "answer": "### \ud83d\udcf8 Image Analysis  *(via pdf_text)*\n\n**File:** 20260318_154806_Week-7-1766484412108.pdf\n\n**Description:** PDF document \u2014 10 page(s) extracted\n\n**Answer:**\n\nContent extracted from PDF:\n\n[Page 1]\nWEEK 7 \u2014 GENAI & MULTIMODAL RAG\nENGINEERING\n(Text RAG + Image RAG + SQL Question Answering + Hybrid Retrieval + Local LLMs)\nUSE CASE: Enterprise Knowledge Intelligence System (Text + Images +\nSQL RAG)\nInterns will build an enterprise-grade GenAI system that can:\n\u25cf Answer questions from internal documents (PDFs, DOCX, TXT)\n\u25cf Retrieve & reason over images (diagrams, charts, forms)\n\u25cf Query structured data using natural language \u2192 SQL \u2192 result\n\u25cf Run on either local open-source models or hosted LLM APIs (OpenAI / Claude /\nGemini)\n\u25cf Provide faithful, non-hallucinated responses with evaluation & monitoring\nThis simulates real enterprise systems used in:\n\u25cf Banking (policy manuals + scanned KYC files + SQL transaction DB)\n\u25cf Insurance (claims PDFs + damage images + SQL claim tables)\n\u25cf Manufacturing (blueprints + manuals + operational DB)\nDATASETS FOR THIS USE-CASE (WORKING +\nRELEVANT)\n1) Tabular / Structured Data (CSV \u2013 Enterprise)\nEnterprise CSV Samples (General Business Tables)\n\n[Page 2]\n\u25cf Type: Tabular CSV files for business data (employees, products, transactions, etc.)\n\u25cf Source: https://www.datablist.com/learn/csv/download-sample-csv-files\n2) Document / Knowledge Data (Text-RAG)\nEnterprise RAG Markdown Dataset\n\u25cf Type: Markdown text documents \u2014 suitable for ingestion & retrieval tasks\n\u25cf Source: https://www.kaggle.com/datasets/rrr3try/enterprise-rag-markdown\n3) Graph / Structured Relationship Data\nGraphs Dataset\n\u25cf Type: Structured graph data (networks/relationships) \u2014 usefu",
+      "image": "Week-7-1766484412108.pdf"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260318_155106",
+      "timestamp": "2026-03-18T15:51:25.992343",
+      "question": "Summarize the pdf",
+      "answer": "### \ud83d\udcf8 Image Analysis  *(via pdf_text)*\n\n**File:** 20260318_155124_Week-7-1766484412108.pdf\n\n**Description:** PDF document \u2014 10 page(s) extracted\n\n**Answer:**\n\nContent extracted from PDF:\n\n[Page 1]\nWEEK 7 \u2014 GENAI & MULTIMODAL RAG\nENGINEERING\n(Text RAG + Image RAG + SQL Question Answering + Hybrid Retrieval + Local LLMs)\nUSE CASE: Enterprise Knowledge Intelligence System (Text + Images +\nSQL RAG)\nInterns will build an enterprise-grade GenAI system that can:\n\u25cf Answer questions from internal documents (PDFs, DOCX, TXT)\n\u25cf Retrieve & reason over images (diagrams, charts, forms)\n\u25cf Query structured data using natural language \u2192 SQL \u2192 result\n\u25cf Run on either local open-source models or hosted LLM APIs (OpenAI / Claude /\nGemini)\n\u25cf Provide faithful, non-hallucinated responses with evaluation & monitoring\nThis simulates real enterprise systems used in:\n\u25cf Banking (policy manuals + scanned KYC files + SQL transaction DB)\n\u25cf Insurance (claims PDFs + damage images + SQL claim tables)\n\u25cf Manufacturing (blueprints + manuals + operational DB)\nDATASETS FOR THIS USE-CASE (WORKING +\nRELEVANT)\n1) Tabular / Structured Data (CSV \u2013 Enterprise)\nEnterprise CSV Samples (General Business Tables)\n\n[Page 2]\n\u25cf Type: Tabular CSV files for business data (employees, products, transactions, etc.)\n\u25cf Source: https://www.datablist.com/learn/csv/download-sample-csv-files\n2) Document / Knowledge Data (Text-RAG)\nEnterprise RAG Markdown Dataset\n\u25cf Type: Markdown text documents \u2014 suitable for ingestion & retrieval tasks\n\u25cf Source: https://www.kaggle.com/datasets/rrr3try/enterprise-rag-markdown\n3) Graph / Structured Relationship Data\nGraphs Dataset\n\u25cf Type: Structured graph data (networks/relationships) \u2014 usefu",
+      "image": "Week-7-1766484412108.pdf"
+    },
+    {
+      "endpoint": "/ask-image",
+      "session_id": "session_20260318_155106",
+      "timestamp": "2026-03-18T15:51:40.344817",
+      "question": "Summarize the pdf",
+      "answer": "### \ud83d\udcf8 Image Analysis  *(via pdf_text)*\n\n**File:** 20260318_155138_Week-9--2--1773039881581.pdf\n\n**Description:** PDF document \u2014 9 page(s) extracted\n\n**Answer:**\n\nRelevant content found:\n\n2. Summarizer Agent\nResearch Agent \u2192 Summarizer Agent \u2192 Summary\nSummarizer Agent \u2192 Answer Agent \u2192 Final Answer\n/agents/summarizer_agent.py\n\u2714 Important facts summarized",
+      "image": "Week-9--2--1773039881581.pdf"
+    },
+    {
+      "endpoint": "/ask",
+      "session_id": "user_001",
+      "timestamp": "2026-03-18T15:55:48.307967",
+      "question": "How many artists are there?",
+      "answer": "There are **8** records.",
+      "evaluation": {
+        "confidence": 0.8500000000000001,
+        "quality": "good",
+        "hallucination_detected": false,
+        "flags": [
+          "low_faithfulness",
+          "low_context_relevance"
+        ]
+      }
+    }
+  ]
+}
