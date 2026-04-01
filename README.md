@@ -284,6 +284,24 @@ streamlit run src/deployment/streamlit_app.py
 
 ---
 
+---
+
+## 📸 Screenshots
+
+### Day 1 — Local RAG System Dashboard
+![RAG Dashboard](SCREENSHOTS/RAG_DASHBOARD.png)
+
+### Day 2 — Advanced Retrieval Dashboard
+![Advanced Retrieval Dashboard](SCREENSHOTS/ADVANCED_RETRIEVAL_DASHBOARD.png)
+
+### Day 3 — Multimodal RAG
+![Multimodal RAG](SCREENSHOTS/multimodal_RAG.png)
+
+### Day 4 — SQL Question Answering System
+![SQL Question Answering System](SCREENSHOTS/SQL%20Question%20Answering%20System.png)
+
+---
+
 ## 📊 Week 7 Completion Requirements
 
 | Skill Area | Requirement | Status |
